@@ -1,0 +1,28 @@
+{
+  "id": "12345678-1234-5678-8234-567812345678",
+  "actor" : {
+    "objectType": "Agent",
+    "mbox":"mailto:xapi@adlnet.gov"
+  },
+  "verb": {
+    "id": "http://adlnet.gov/expapi/verbs/created",
+    "display": {
+      "en-US": "created"
+    }
+  },
+  "object" : {
+    "objectType":"Activity",
+    "id":"http://www.example.co.uk/exampleactivity",
+    "definition":{
+      "name": {
+        "en-GB":"example activity",
+        "en-US":"example activity"
+      },
+      "description": {
+        "en-GB":"An example of an activity",
+        "en-US":"An example of an activity"
+      },
+      "type":"http://www.example.co.uk/types/exampleactivitytype"
+    }
+  }
+}
