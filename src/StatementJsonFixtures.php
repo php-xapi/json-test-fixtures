@@ -18,6 +18,8 @@ namespace XApi\Fixtures\Json;
  */
 class StatementJsonFixtures extends JsonFixtures
 {
+    const DIRECTORY = 'Statement';
+
     /**
      * Loads a minimal valid statement.
      *
@@ -29,23 +31,13 @@ class StatementJsonFixtures extends JsonFixtures
     }
 
     /**
-     * Loads a statement including an activity.
-     *
-     * @return string
-     */
-    public static function getStatementWithActivity()
-    {
-        return static::load('statement_with_activity');
-    }
-
-    /**
      * Loads a statement including a reference to another statement.
      *
      * @return string
      */
     public static function getStatementWithStatementRef()
     {
-        return static::load('statement_with_statement_ref');
+        return static::load('with_statement_ref');
     }
 
     /**
@@ -55,7 +47,7 @@ class StatementJsonFixtures extends JsonFixtures
      */
     public static function getStatementWithResult()
     {
-        return static::load('statement_with_result');
+        return static::load('with_result');
     }
 
     /**
@@ -65,7 +57,7 @@ class StatementJsonFixtures extends JsonFixtures
      */
     public static function getStatementWithSubStatement()
     {
-        return static::load('statement_with_sub_statement');
+        return static::load('with_sub_statement');
     }
 
     /**
@@ -75,7 +67,7 @@ class StatementJsonFixtures extends JsonFixtures
      */
     public static function getStatementWithAgentAuthority()
     {
-        return static::load('statement_with_agent_authority');
+        return static::load('with_agent_authority');
     }
 
     /**
@@ -85,7 +77,7 @@ class StatementJsonFixtures extends JsonFixtures
      */
     public static function getStatementWithGroupAuthority()
     {
-        return static::load('statement_with_group_authority');
+        return static::load('with_group_authority');
     }
 
     /**
@@ -95,6 +87,6 @@ class StatementJsonFixtures extends JsonFixtures
      */
     public static function getStatementCollection()
     {
-        return static::load('statement_collection');
+        return static::load('collection');
     }
 }

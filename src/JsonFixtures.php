@@ -18,6 +18,8 @@ namespace XApi\Fixtures\Json;
  */
 abstract class JsonFixtures
 {
+    const DIRECTORY = null;
+
     /**
      * Loads a JSON encoded fixture from the file system
      *
@@ -27,6 +29,10 @@ abstract class JsonFixtures
      */
     protected static function load($file)
     {
+        if (null !== static::DIRECTORY) {
+            return file_get_contents(__DIR__.'/../data/'.static::DIRECTORY.'/'.$file.'.json');
+        }
+
         return file_get_contents(__DIR__.'/../data/'.$file.'.json');
     }
 }

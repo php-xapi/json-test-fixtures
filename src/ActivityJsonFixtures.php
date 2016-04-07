@@ -12,19 +12,42 @@
 namespace XApi\Fixtures\Json;
 
 /**
- * JSON encoded activity fixtures.
+ * xAPI statement activity fixtures.
  *
- * @author Christian Flothmann <christian.flothmann@xabbuh.de>
+ * These fixtures are borrowed from the
+ * {@link https://github.com/adlnet/xAPI_LRS_Test Experience API Learning Record Store Conformance Test} package.
  */
 class ActivityJsonFixtures extends JsonFixtures
 {
-    /**
-     * Loads an activity.
-     *
-     * @return string
-     */
-    public static function getActivity()
+    const DIRECTORY = 'Activity';
+
+    public static function getTypicalActivity()
     {
-        return static::load('activity');
+        return self::load('typical_activity');
+    }
+
+    public static function getIdActivity()
+    {
+        return self::load('id_activity');
+    }
+
+    public static function getIdActivityWithType()
+    {
+        return self::load('id_activity_with_type');
+    }
+
+    public static function getIdAndDefinitionActivity()
+    {
+        return self::load('id_and_definition_activity');
+    }
+
+    public static function getIdAndDefinitionActivityWithType()
+    {
+        return self::load('id_and_definition_activity_with_type');
+    }
+
+    public static function getAllPropertiesActivity()
+    {
+        return self::load('all_properties_activity');
     }
 }

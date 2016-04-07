@@ -12,49 +12,157 @@
 namespace XApi\Fixtures\Json;
 
 /**
- * JSON encoded actor fixtures.
+ * JSON encoded xAPI actor fixtures.
  *
- * @author Christian Flothmann <christian.flothmann@xabbuh.de>
+ * These fixtures are borrowed from the
+ * {@link https://github.com/adlnet/xAPI_LRS_Test Experience API Learning Record Store Conformance Test} package.
  */
 class ActorJsonFixtures extends JsonFixtures
 {
-    /**
-     * Loads an agent.
-     *
-     * @return string
-     */
-    public static function getAgent()
+    const DIRECTORY = 'Actor';
+
+    public static function getTypicalAgent()
     {
-        return static::load('agent');
+        return self::load('typical_agent');
     }
 
-    /**
-     * Loads an agent without an object type reference included.
-     *
-     * @return string
-     */
-    public static function getAgentWithoutObjectType()
+    public static function getTypicalAgentWithType()
     {
-        return static::load('agent_without_object_type');
+        return self::load('typical_agent_with_type');
     }
 
-    /**
-     * Loads a group.
-     *
-     * @return string
-     */
-    public static function getGroup()
+    public static function getMboxAgent()
     {
-        return static::load('group');
+        return self::load('mbox_agent');
     }
 
-    /**
-     * Loads an anonymous group.
-     *
-     * @return string
-     */
-    public static function getAnonymousGroup()
+    public static function getMboxAgentWithType()
     {
-        return static::load('anonymous_group');
+        return self::load('mbox_agent_with_type');
+    }
+
+    public static function getMboxSha1SumAgent()
+    {
+        return self::load('mbox_sha1_sum_agent');
+    }
+
+    public static function getMboxSha1SumAgentWithType()
+    {
+        return self::load('mbox_sha1_sum_agent_with_type');
+    }
+
+    public static function getOpenIdAgent()
+    {
+        return self::load('open_id_agent');
+    }
+
+    public static function getOpenIdAgentWithType()
+    {
+        return self::load('open_id_agent_with_type');
+    }
+
+    public static function getAccountAgent()
+    {
+        return self::load('account_agent');
+    }
+
+    public static function getAccountAgentWithType()
+    {
+        return self::load('account_agent_with_type');
+    }
+
+    public static function getTypicalGroup()
+    {
+        return self::load('typical_group');
+    }
+
+    public static function getMboxGroup()
+    {
+        return self::load('mbox_group');
+    }
+
+    public static function getMboxSha1SumGroup()
+    {
+        return self::load('mbox_sha1_sum_group');
+    }
+
+    public static function getOpenIdGroup()
+    {
+        return self::load('open_id_group');
+    }
+
+    public static function getAccountGroup()
+    {
+        return self::load('account_group');
+    }
+
+    public static function getMboxAndNameGroup()
+    {
+        return self::load('mbox_and_name_group');
+    }
+
+    public static function getMboxSha1SumAndNameGroup()
+    {
+        return self::load('mbox_sha1_sum_and_name_group');
+    }
+
+    public static function getOpenIdAndNameGroup()
+    {
+        return self::load('open_id_and_name_group');
+    }
+
+    public static function getAccountAndNameGroup()
+    {
+        return self::load('account_and_name_group');
+    }
+
+    public static function getMboxAndMemberGroup()
+    {
+        return self::load('mbox_and_member_group');
+    }
+
+    public static function getMboxSha1SumAndMemberGroup()
+    {
+        return self::load('mbox_sha1_sum_and_member_group');
+    }
+
+    public static function getOpenIdAndMemberGroup()
+    {
+        return self::load('open_id_and_member_group');
+    }
+
+    public static function getAccountAndMemberGroup()
+    {
+        return self::load('account_and_member_group');
+    }
+
+    public static function getAllPropertiesAndTypicalAgentMemberGroup()
+    {
+        return self::load('all_properties_and_typical_agent_member_group');
+    }
+
+    public static function getAllPropertiesAndMboxAgentMemberGroup()
+    {
+        return self::load('all_properties_and_mbox_agent_member_group');
+    }
+
+    public static function getAllPropertiesAndMboxSha1SumAgentMemberGroup()
+    {
+        return self::load('all_properties_and_mbox_sha1_sum_agent_member_group');
+    }
+
+    public static function getAllPropertiesAndOpenIdAgentMemberGroup()
+    {
+        return self::load('all_properties_and_open_id_agent_member_group');
+    }
+
+    public static function getAllPropertiesAndAccountAgentMemberGroup()
+    {
+        return self::load('all_properties_and_account_agent_member_group');
+    }
+
+    public static function getAllPropertiesAndTwoTypicalAgentMembersGroup()
+    {
+        return self::load('all_properties_and_two_typical_agent_members_group');
     }
 }

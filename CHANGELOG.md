@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+0.2.0
+-----
+
+Switched to make use of the official conformance test fixtures that are provided
+by the maintainers of the xAPI spec.
+
 0.1.0
 -----
 
