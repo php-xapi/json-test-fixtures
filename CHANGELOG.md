@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+0.2.1
+-----
+
+Do not block the installation of release `0.4` of the `php-xapi/model` package.
+
 0.2.0
 -----
 
