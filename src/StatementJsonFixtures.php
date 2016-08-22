@@ -30,6 +30,36 @@ class StatementJsonFixtures extends JsonFixtures
         return static::load('minimal_statement');
     }
 
+    public static function getTypicalStatement()
+    {
+        return static::load('typical_statement');
+    }
+
+    public static function getVoidingStatement()
+    {
+        return static::load('voiding_statement');
+    }
+
+    /**
+     * Loads a statement with a group as an actor.
+     *
+     * @return string
+     */
+    public static function getStatementWithGroupActor()
+    {
+        return static::load('with_group_actor');
+    }
+
+    /**
+     * Loads a statement with a group that has no members as an actor.
+     *
+     * @return string
+     */
+    public static function getStatementWithGroupActorWithoutMembers()
+    {
+        return static::load('with_group_actor_without_members');
+    }
+
     /**
      * Loads a statement including a reference to another statement.
      *

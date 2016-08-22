@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+0.2.2
+-----
+
+Synchronized the list of statement fixtures with the test cases of the
+`php-xapi/test-fixtures` package.
+
 0.2.1
 -----
 
