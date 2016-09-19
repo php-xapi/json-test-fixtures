@@ -1,6 +1,9 @@
 CHANGELOG
 =========
 
+* Removed dependency on the `php-xapi/model` package. The classes from that
+  package are never used.
+
 * Added missing fixtures for `Context`, `ContextActivities`, and `Extensions`.
 
 * Added missing test fixtures for the `SubStatement` class.
