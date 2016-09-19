@@ -165,4 +165,9 @@ class SubStatementJsonFixtures extends JsonFixtures
     {
         return self::load('typical_statement_reference_object');
     }
+
+    public static function getAllPropertiesSubStatement()
+    {
+        return self::load('all_properties');
+    }
 }

@@ -21,6 +21,11 @@ class ResultJsonFixtures extends JsonFixtures
 {
     const DIRECTORY = 'Result';
 
+    public static function getTypicalResult()
+    {
+        return self::load('typical');
+    }
+
     public static function getScoreResult()
     {
         return self::load('score_result');
@@ -51,6 +56,16 @@ class ResultJsonFixtures extends JsonFixtures
         return self::load('duration_result');
     }
 
+    public static function getExtensionsResult()
+    {
+        return self::load('extensions');
+    }
+
+    public static function getEmptyExtensionsResult()
+    {
+        return self::load('empty_extensions');
+    }
+
     public static function getScoreAndSuccessResult()
     {
         return self::load('score_and_success_result');
@@ -69,5 +84,10 @@ class ResultJsonFixtures extends JsonFixtures
     public static function getScoreAndDurationResult()
     {
         return self::load('score_and_duration_result');
+    }
+
+    public static function getAllPropertiesResult()
+    {
+        return self::load('all_properties');
     }
 }
