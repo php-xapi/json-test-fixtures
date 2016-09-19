@@ -1,6 +1,8 @@
 CHANGELOG
 =========
 
+* Added missing test fixtures for the `SubStatement` class.
+
 * Added missing test fixtures for the `StatementReference` class.
 
 0.2.2
