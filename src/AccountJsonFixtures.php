@@ -23,11 +23,21 @@ class AccountJsonFixtures extends JsonFixtures
 
     public static function getTypicalAccount()
     {
-        return self::load('typical_account');
+        return self::load('typical');
     }
 
     public static function getConsumerAccount()
     {
-        return self::load('consumer_account');
+        return self::load('consumer');
+    }
+
+    public static function getAllPropertiesAccount()
+    {
+        return self::load('all_properties');
+    }
+
+    public static function getForQueryAccount()
+    {
+        return self::load('for_query');
     }
 }

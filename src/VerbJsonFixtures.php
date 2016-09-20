@@ -23,21 +23,26 @@ class VerbJsonFixtures extends JsonFixtures
 
     public static function getTypicalVerb()
     {
-        return self::load('typical_verb');
+        return self::load('typical');
     }
 
     public static function getVoidingVerb()
     {
-        return self::load('voiding_verb');
+        return self::load('voiding');
     }
 
     public static function getIdVerb()
     {
-        return self::load('id_verb');
+        return self::load('id');
     }
 
     public static function getIdAndDisplayVerb()
     {
-        return self::load('id_and_display_verb');
+        return self::load('id_and_display');
+    }
+
+    public static function getForQueryVerb()
+    {
+        return self::load('for_query');
     }
 }

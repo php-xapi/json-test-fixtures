@@ -55,4 +55,9 @@ class DefinitionJsonFixtures extends JsonFixtures
     {
         return self::load('all_properties_definition');
     }
+
+    public static function getForQueryDefinition()
+    {
+        return self::load('for_query');
+    }
 }

@@ -23,31 +23,36 @@ class ActivityJsonFixtures extends JsonFixtures
 
     public static function getTypicalActivity()
     {
-        return self::load('typical_activity');
+        return self::load('typical');
     }
 
     public static function getIdActivity()
     {
-        return self::load('id_activity');
+        return self::load('id');
     }
 
     public static function getIdActivityWithType()
     {
-        return self::load('id_activity_with_type');
+        return self::load('id_with_type');
     }
 
     public static function getIdAndDefinitionActivity()
     {
-        return self::load('id_and_definition_activity');
+        return self::load('id_and_definition');
     }
 
     public static function getIdAndDefinitionActivityWithType()
     {
-        return self::load('id_and_definition_activity_with_type');
+        return self::load('id_and_definition_with_type');
     }
 
     public static function getAllPropertiesActivity()
     {
-        return self::load('all_properties_activity');
+        return self::load('all_properties');
+    }
+
+    public static function getForQueryActivity()
+    {
+        return self::load('for_query');
     }
 }

@@ -71,6 +71,26 @@ class ActorJsonFixtures extends JsonFixtures
         return self::load('account_agent_with_type');
     }
 
+    public static function getForQueryMboxAgent()
+    {
+        return self::load('for_query_mbox_agent');
+    }
+
+    public static function getForQueryMboxSha1SumAgent()
+    {
+        return self::load('for_query_mbox_sha1_sum_agent');
+    }
+
+    public static function getForQueryOpenIdAgent()
+    {
+        return self::load('for_query_open_id_agent');
+    }
+
+    public static function getForQueryAccountAgent()
+    {
+        return self::load('for_query_account_agent');
+    }
+
     public static function getTypicalGroup()
     {
         return self::load('typical_group');
