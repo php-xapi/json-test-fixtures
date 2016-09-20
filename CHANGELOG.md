@@ -1,14 +1,12 @@
 CHANGELOG
 =========
 
+* Added missing fixtures for `Account`, `Activity`, `Actor`, `Context`,
+  `ContextActivities`, `Extensions`, `Result`, `SubStatement`, `StatementReference`
+  and `Verb`.
+
 * Removed dependency on the `php-xapi/model` package. The classes from that
   package are never used.
-
-* Added missing fixtures for `Context`, `ContextActivities`, and `Extensions`.
-
-* Added missing test fixtures for the `SubStatement` class.
-
-* Added missing test fixtures for the `StatementReference` class.
 
 0.2.2
 -----
