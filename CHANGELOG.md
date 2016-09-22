@@ -1,6 +1,8 @@
 CHANGELOG
 =========
 
+* Added fixtures for activity interaction definitions and interaction components.
+
 * Added missing fixtures for `Account`, `Activity`, `Actor`, `Context`,
   `ContextActivities`, `Extensions`, `Result`, `SubStatement`, `StatementReference`
   and `Verb`.

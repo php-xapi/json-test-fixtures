@@ -56,6 +56,56 @@ class DefinitionJsonFixtures extends JsonFixtures
         return self::load('all_properties_definition');
     }
 
+    public static function getTrueFalseDefinition()
+    {
+        return self::load('true_false');
+    }
+
+    public static function getFillInDefinition()
+    {
+        return self::load('fill_in');
+    }
+
+    public static function getNumericDefinition()
+    {
+        return self::load('numeric');
+    }
+
+    public static function getOtherDefinition()
+    {
+        return self::load('other');
+    }
+
+    public static function getOtherWithCorrectResponsesPatternDefinition()
+    {
+        return self::load('other_with_correct_responses_pattern');
+    }
+
+    public static function getChoiceDefinition()
+    {
+        return self::load('choice');
+    }
+
+    public static function getSequencingDefinition()
+    {
+        return self::load('sequencing');
+    }
+
+    public static function getLikertDefinition()
+    {
+        return self::load('likert');
+    }
+
+    public static function getMatchingDefinition()
+    {
+        return self::load('matching');
+    }
+
+    public static function getPerformanceDefinition()
+    {
+        return self::load('performance');
+    }
+
     public static function getForQueryDefinition()
     {
         return self::load('for_query');
