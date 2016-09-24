@@ -1,6 +1,8 @@
 CHANGELOG
 =========
 
+* Added fixtures for activity definition extensions.
+
 * Added fixtures for activity interaction definitions and interaction components.
 
 * Added missing fixtures for `Account`, `Activity`, `Actor`, `Context`,

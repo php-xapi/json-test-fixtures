@@ -23,37 +23,47 @@ class DefinitionJsonFixtures extends JsonFixtures
 
     public static function getEmptyDefinition()
     {
-        return self::load('empty_definition');
+        return self::load('empty');
     }
 
     public static function getTypicalDefinition()
     {
-        return self::load('typical_definition');
+        return self::load('typical');
     }
 
     public static function getNameDefinition()
     {
-        return self::load('name_definition');
+        return self::load('name');
     }
 
     public static function getDescriptionDefinition()
     {
-        return self::load('description_definition');
+        return self::load('description');
     }
 
     public static function getTypeDefinition()
     {
-        return self::load('type_definition');
+        return self::load('type');
     }
 
     public static function getMoreInfoDefinition()
     {
-        return self::load('more_info_definition');
+        return self::load('more_info');
+    }
+
+    public static function getExtensionsDefinition()
+    {
+        return self::load('extensions');
+    }
+
+    public static function getEmptyExtensionsDefinition()
+    {
+        return self::load('empty_extensions');
     }
 
     public static function getAllPropertiesDefinition()
     {
-        return self::load('all_properties_definition');
+        return self::load('all_properties');
     }
 
     public static function getTrueFalseDefinition()
