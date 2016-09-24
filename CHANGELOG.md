@@ -1,6 +1,8 @@
 CHANGELOG
 =========
 
+* Added a `Statement` fixture defining all properties of a statement.
+
 * Added fixtures for statement attachments.
 
 * Added fixtures for activity definition extensions.

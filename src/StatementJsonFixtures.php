@@ -115,6 +115,11 @@ class StatementJsonFixtures extends JsonFixtures
         return static::load('with_group_authority');
     }
 
+    public static function getAllPropertiesStatement()
+    {
+        return static::load('all_properties');
+    }
+
     /**
      * Loads a collection of statements.
      *
