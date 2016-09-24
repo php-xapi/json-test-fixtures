@@ -27,17 +27,22 @@ class StatementJsonFixtures extends JsonFixtures
      */
     public static function getMinimalStatement()
     {
-        return static::load('minimal_statement');
+        return static::load('minimal');
     }
 
     public static function getTypicalStatement()
     {
-        return static::load('typical_statement');
+        return static::load('typical');
     }
 
     public static function getVoidingStatement()
     {
-        return static::load('voiding_statement');
+        return static::load('voiding');
+    }
+
+    public static function getAttachmentStatement()
+    {
+        return static::load('attachment');
     }
 
     /**

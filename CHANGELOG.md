@@ -1,6 +1,8 @@
 CHANGELOG
 =========
 
+* Added fixtures for statement attachments.
+
 * Added fixtures for activity definition extensions.
 
 * Added fixtures for activity interaction definitions and interaction components.
