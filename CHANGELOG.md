@@ -1,6 +1,9 @@
 CHANGELOG
 =========
 
+0.2.3
+-----
+
 * Added a `Statement` fixture defining all properties of a statement.
 
 * Added fixtures for statement attachments.
