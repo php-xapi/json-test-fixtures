@@ -45,9 +45,4 @@ class ExtensionsJsonFixtures extends JsonFixtures
     {
         return self::load('multiple_pairs');
     }
-
-    public static function getInvalidNonIriExtensions()
-    {
-        return self::load('invalid_non_iri');
-    }
 }
