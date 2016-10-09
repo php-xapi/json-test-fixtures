@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+2.0.0
+-----
+
+* Attachment fixtures are now objects containing up to two keys. `metadata`
+  contains the JSON encoded attachment while `content`, if present, denotes
+  the raw attachment content.
+
 1.0.0
 -----
 
