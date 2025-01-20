@@ -4,6 +4,7 @@ CHANGELOG
 2.1.0
 -----
 
+* added support for PHP 8
 * dropped support for PHP < 7.1
 
 2.0.0
